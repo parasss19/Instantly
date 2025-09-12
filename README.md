@@ -43,68 +43,6 @@
 
 <br>
 
-> **Note**: If you are new to open source contributions, you can refer to [this](https://opensource.guide/how-to-contribute/) guide by GitHub.
-
-<br>
-
-
-## 📁 Folder Structure
-
-```text
-AI Chrome Extension
-├── public
-│   ├── icon.png
-│   ├── ai.png
-│   ├── manifest.json
-│   └── scripts
-│       ├── background.js
-│       └── content.js      
-├── src
-│   ├── options 
-│   │   └── Options.jsx
-│   ├── popup
-│   │   └── Popup.jsx
-│   ├── App.css
-│   ├── App.jsx
-│   ├── index.css
-│   └── main.jsx 
-├── .gitignore
-├── index.html
-├── package.json
-├── package-lock.json
-├── README.md
-└── vite.config.js
-```
-
-
-## Installation
-1. **Clone the repository**
-
-```sh
-   git clone https://github.com/yourusername/AI-summarizer-Extension.git
-   cd AI-summarizer-Extension
-   ```
-
-2. **Install dependencies**:
-
-   ```sh
-   npm install
-   ```
-
-3. **Build the extension**
-   ```sh
-   npm run build
-   ```
-``` This generates a dist/ folder with the compiled extension.```
-
-4. **Load it into Chrome**
-- Open Chrome and go to chrome://extensions
-- Enable Developer Mode
-- Click "Load unpacked"
-- Select the dist/ folder
-
-<br>
-
 ## 📜 License
 This project is licensed under the MIT License.
 
