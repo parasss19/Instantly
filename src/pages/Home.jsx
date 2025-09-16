@@ -45,15 +45,18 @@ const Home = () => {
           </div>
 
           {/* CTA btn*/}
-          <div className="mt-8">
-            <button
-              onClick={() => navigate("#")}
-              className="cursor-pointer bg-black/60  text-yellow-300 text-sm sm:text-lg px-3 py-2 sm:px-4 sm:py-2 rounded-lg shadow-md transition-transform duration-150 active:scale-95"
+          <div className="mt-8 bg-black/60 px-3 py-2 sm:px-4 sm:py-2 rounded-lg">
+            <a
+              href="https://chromewebstore.google.com/detail/ai-summary-for-blogs-and/kcjdbncjlcjdcbkimdeidcfablopnbbb"
+              target="blank"
+              className="cursor-pointer text-yellow-300 text-sm sm:text-lg shadow-md transition-transform duration-150 active:scale-95"
             >
               <span className='tracking-wider flex items-center font-light justify-center gap-2'>
-                Add to <img src={Chrome} alt="chrome" className='w-5 h-5'/> its's Free
+                Add to {" "}
+                <img src={Chrome} alt="chrome" className='w-5 h-5'/>{" "}
+                its's Free
               </span>
-            </button>
+            </a>
           </div>
 
           {/* Product Preview demo video */}
