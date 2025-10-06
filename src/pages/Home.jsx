@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import FeaturesBento from '../components/FeaturesBento';
 import HowToUse from '../components/HowToUse';
 import zap from '../assets/zap.svg'
-
+import peerlistBage from '../assets/launch-badge-peerlist.svg'
 
 const Home = () => {
 
@@ -20,6 +20,11 @@ const Home = () => {
         viewport={{ once: true }}
       >
         <div className="relative sm:my- px-4 sm:px-8 flex flex-col items-center font-[Geist]">
+          {/* Peerlist badge */}
+          <div className='mb-4 w-[180px] '>
+            <img src={peerlistBage} alt="peerlist badge" className='w-full items-center' />
+          </div>
+
           {/* badge */}
           <div className="font-custom-font inline-flex items-center mb-3 py-0.5 px-3 border border-white/40 rounded-full  shadow-md hover:shadow-lg hover:-translate-y-1 transition group sm:px-4 sm:py-1">
             <p className="text-xs sm:text-sm text-white font-light flex gap-2 items-center justify-center">
